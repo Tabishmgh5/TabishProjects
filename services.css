@@ -1,0 +1,93 @@
+body{
+    background-color: #081b29ee;
+}
+
+.parent-box{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.all-boxes{
+    color: white;
+    margin: 1%;
+}
+
+
+
+
+
+.container{
+
+
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.flex{
+
+
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+
+.Document{
+
+
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.container h3{
+    text-transform: capitalize;
+}
+.main-box{
+    
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.third-position{
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    text-transform: capitalize;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+
+.fourth-position{
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    text-transform: capitalize;
+    padding: 5%;
+    border-radius: 5%;
+}
+    
+    
+
+.fifth-position{
+    width: 350px;
+    border: 3px solid rgb(8, 165, 237);
+    text-transform: capitalize;
+    padding: 5%;
+    border-radius: 5%;
+}
+

@@ -1,0 +1,143 @@
+.h1{
+    position: relative;
+    text-transform: capitalize;
+    margin-left: 40% ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 5%;
+
+
+}
+.h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showright 3s ease forwards;
+    animation-delay: .2s;
+}
+
+inline{
+    color: rgb(0, 156, 239);
+}
+body{
+    background-color: #081b29;
+}
+.image{
+    position: relative;
+    margin-left: 40%;
+    
+
+}
+.image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showright 3s ease forwards;
+    animation-delay: .8s;
+}
+
+
+#five{
+    border-radius: 50%;
+    border: 4px solid rgb(5, 119, 150);
+
+}
+.para{
+    position: relative;
+    height: 2%;
+    width: 90%;
+    color: white;
+    margin-left: 8%;
+
+}
+.para::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showright 2s ease forwards;
+    animation-delay: 2s;
+}
+.rwado{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 166, 250);
+    text-transform: capitalize;
+}
+.rwado::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showright 4s ease forwards;
+    animation-delay: 1.3s;
+}
+.read{
+    margin-left: 39%;
+    margin-top: 7%;
+    
+}
+.read button{
+    text-transform: capitalize;
+    height: 2.7rem;
+    width: 8rem;
+    font-weight: 700;
+    white-space: 5px;
+    background-color: #2086cf;
+    border: 2px solid #2086cf;
+    border-radius: 5%;
+}
+.read button{
+    background-color: transparent;
+    color: #00abf0;
+}
+.read button::before{
+    
+    background-color: #00abf0;
+}
+
+.read button:hover{
+    color: #081b29
+}
+.read button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 20%;
+    background-color:#22a2dd;
+    z-index: -1;
+    transition: .8s;
+    color: #081b29;
+    margin-left: 39%;
+    margin-top: 17.5%;
+}
+.read button:hover::before{
+    width: 8rem;
+    
+
+}
+
+
+
+    
+@keyframes showright{
+    100%{
+        width: 0;
+    }
+}
